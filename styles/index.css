@@ -339,6 +339,7 @@ footer {
 .footer-top {
   display: flex;
   justify-content: space-between;
+  padding: 30px;
 }
 .footer-top-left-content {
   color: #fff;
