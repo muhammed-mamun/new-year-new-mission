@@ -259,5 +259,5 @@ header {
   border-radius: 16px;
 }
 .card-item:hover {
-  box-shadow: 8px 5px rgba(4, 42, 114, 0.801);
+  box-shadow: 5px 4px rgba(4, 42, 114, 0.901);
 }
