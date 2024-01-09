@@ -261,3 +261,29 @@ header {
 .card-item:hover {
   box-shadow: 5px 4px rgba(4, 42, 114, 0.901);
 }
+.newsletter {
+  width: 1320px;
+  height: 616px;
+  padding: 0 120px 120px 120px;
+  text-align: center;
+}
+.sms {
+  width: 150px;
+  height: 150px;
+}
+.newsletter-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.newsletter-content {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
