@@ -287,3 +287,63 @@ header {
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
+/* footer section styles */
+footer {
+  background-color: #070211;
+  width: 1600px;
+  height: 609px;
+  padding: 120px 140px 120px 140px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top-left-content {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  width: 375px;
+  height: 80px;
+}
+.phone {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.website {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+  margin-top: -20px;
+}
+hr {
+  background: rgba(255, 255, 255, 0.15);
+  height: 1px;
+  border: 0;
+}
+.footer-center {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+.footer-center img {
+  margin-right: 24px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom-content {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 50px;
+}
