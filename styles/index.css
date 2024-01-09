@@ -20,7 +20,7 @@ header {
   width: 1320px;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 50px 120px 0 120px;
+  margin: 50px 140px 0 140px;
   border-radius: 16px;
 }
 .banner-content {
@@ -85,7 +85,7 @@ header {
   width: 1320px;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 50px 120px 120px 120px;
+  margin: 50px 140px 120px 140px;
   border-radius: 16px;
   display: flex;
 }
@@ -133,7 +133,7 @@ header {
   );
   width: 1320px;
   height: 482px;
-  margin: 0 120px 0 120px;
+  margin: 0 140px 0 140px;
   text-align: center;
 }
 .simple-text-wrape {
@@ -171,7 +171,7 @@ header {
   height: 463px;
   display: flex;
   justify-content: space-between;
-  padding: 0 120px 120px 120px;
+  padding: 0 140px 140px 140px;
 }
 .year2024-left {
   margin: auto;
@@ -224,11 +224,85 @@ header {
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
+/* functional section related style */
+.functional {
+  width: 1320px;
+  height: 986.07px;
+  padding: 0 140px 120px 140px;
+}
+.functional-one {
+  align-items: center;
+  padding: 0 126px 64px 126px;
+}
+.functional-second {
+  height: 662px;
+  background-image: url(../resources/Rectangle\ 2.png),
+    url(../resources/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-position: bottom, top right;
+  padding-left: 60px;
+}
+.discount-bg {
+  width: 220.841px;
+  height: 220.841px;
+  fill: #fff;
+  margin: 28% 16%;
+}
+.discount-img {
+  width: 206.841px;
+  height: 206.841px;
+}
+.heading-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.functional-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+}
+.holidays {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.functional-content {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  width: 1068px;
+}
+.functional-colunm {
+  display: flex;
+  margin-top: 64px;
+}
+.functional-right {
+  width: 660px;
+}
+.functional-left {
+  width: 660px;
+  padding-top: 50px;
+}
+.functional-left-img {
+  height: 600px;
+}
+
 /* card design styles */
 .card-wrap {
   width: 1320px;
   height: 1163px;
-  padding: 0 120px 120px 120px;
+  padding: 120px 140px 120px 140px;
 }
 .card-wrap-title {
   color: #070211;
@@ -264,7 +338,7 @@ header {
 .newsletter {
   width: 1320px;
   height: 616px;
-  padding: 0 120px 0 120px;
+  padding: 0 140px 0 140px;
   text-align: center;
 }
 .sms {
