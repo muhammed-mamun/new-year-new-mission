@@ -224,3 +224,40 @@ header {
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
+/* card design styles */
+.card-wrap {
+  width: 1320px;
+  height: 1163px;
+  padding: 0 120px 120px 120px;
+}
+.card-wrap-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: -20px;
+}
+.card-wrap-content {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -30px;
+}
+.card-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card-item {
+  flex-wrap: wrap;
+  width: 424px;
+  height: 450px;
+  border-radius: 16px;
+}
+.card-item:hover {
+  box-shadow: 8px 5px rgba(4, 42, 114, 0.801);
+}
